@@ -6,7 +6,7 @@ import os
 # === CONFIG ===
 URL = "https://www.nzhuntingandshooting.co.nz/f13/"
 KEYWORDS = ["leupold", "vx1", "vx2", "vx3", "FS:", "scope", "lefthand", "left hand", "lh"]
-CHECK_INTERVAL = 300  # 5 minutes
+CHECK_INTERVAL = 300  # 2 minutes
 
 TELEGRAM_TOKEN = os.environ.get("TELEGRAM_TOKEN")
 CHAT_ID = os.environ.get("CHAT_ID")
